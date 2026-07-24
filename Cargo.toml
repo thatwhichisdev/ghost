@@ -2,9 +2,9 @@
 resolver = "3"
 members = [
   "crates/ghost-shell",
+  "crates/ghost-shell-app",
   "crates/ghost-shell-bar",
   "crates/ghost-shell-config",
-  "crates/ghost-shell-core",
   "crates/ghost-shell-launcher",
 ]
 default-members = ["crates/ghost-shell"]
@@ -17,9 +17,9 @@ repository = "https://github.com/thatwhichisdev/ghost-shell"
 publish = false
 
 [workspace.dependencies]
+ghost-shell-app = { path = "crates/ghost-shell-app" }
 ghost-shell-bar = { path = "crates/ghost-shell-bar" }
 ghost-shell-config = { path = "crates/ghost-shell-config" }
-ghost-shell-core = { path = "crates/ghost-shell-core" }
 ghost-shell-launcher = { path = "crates/ghost-shell-launcher" }
 
 gpui = {

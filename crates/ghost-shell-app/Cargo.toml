@@ -1,5 +1,5 @@
 [package]
-name = "ghost-shell-core"
+name = "ghost-shell-app"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true

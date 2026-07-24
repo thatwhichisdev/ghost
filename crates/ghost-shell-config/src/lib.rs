@@ -1,6 +1,6 @@
 use config::{Config, ConfigError, File};
 use directories::ProjectDirs;
-use ghost_shell_core::AppConfig;
+use ghost_shell_app::AppConfig;
 
 pub fn load() -> Result<AppConfig, ConfigError> {
     let dirs = ProjectDirs::from("dev", "thatwhichis", "ghost-shell")

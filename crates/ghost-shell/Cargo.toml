@@ -9,7 +9,7 @@ publish.workspace = true
 [dependencies]
 ghost-shell-bar.workspace = true
 ghost-shell-config.workspace = true
-ghost-shell-core.workspace = true
+ghost-shell-app.workspace = true
 ghost-shell-launcher.workspace = true
 
 gpui.workspace = true
